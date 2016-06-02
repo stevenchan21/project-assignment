@@ -1,3 +1,3 @@
-function testing() {
-    document.getElementById('test1').innerHTML = Date();
+function checktime() {
+    document.getElementById('changetotime').innerHTML = Date();
 }
