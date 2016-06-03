@@ -178,12 +178,22 @@
 }
 
 @media screen and (min-width: 480px) {
+  .text p {
+    font-size: 16px;
+  }
   .nav-nav-bar .nav-align {
     margin-top: 50px;
   }
 }
 
 @media screen and (min-width: 1000px) {
+  .text {
+    padding-left: 50px;
+    margin-left: 150px;
+  }
+  .text h3 {
+    margin-bottom: 30px;
+  }
   h1 {
     font-size: 30px;
   }
@@ -202,12 +212,18 @@
 }
 
 @media screen and (min-width: 1300px) {
+  .text {
+    margin-left: 80px;
+  }
   .layout {
     margin-left: 150px;
   }
 }
 
 @media screen and (min-width: 1920px) {
+  .text {
+    margin-left: 0px;
+  }
   .myprofile {
     margin-left: 5%;
   }

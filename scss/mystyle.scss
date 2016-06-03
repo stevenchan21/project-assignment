@@ -166,9 +166,12 @@ $sp-red: #ed2541;
 
 }
 @media screen and (min-width: 480px) {
-    // h1 {
-    //     font-size: 20px;
-    // }
+    .text {
+        // padding-left: 150px;
+        p {
+            font-size: 16px;
+        }
+    }
     .nav-nav-bar {
         .nav-align {
             margin-top: 50px;
@@ -177,6 +180,13 @@ $sp-red: #ed2541;
 }
 
 @media screen and (min-width: 1000px) {
+    .text {
+        padding-left: 50px;
+        margin-left: 150px;
+        h3 {
+            margin-bottom: 30px;
+        }
+    }
     h1 {
         font-size: 30px;
     }
@@ -195,11 +205,17 @@ $sp-red: #ed2541;
 }
 
 @media screen and (min-width: 1300px) {
+    .text {
+        margin-left: 80px;
+    }
     .layout {
         margin-left: 150px;
     }
 }
 @media screen and (min-width: 1920px) {
+    .text {
+        margin-left: 0px;
+    }
     .myprofile {
         margin-left: 5%;
     }
