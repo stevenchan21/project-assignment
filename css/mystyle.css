@@ -153,6 +153,18 @@
 }
 
 @media screen and (min-width: 320px) {
+  .no-padding {
+    padding: 0px;
+  }
+  .nav-nav-bar .nav-align {
+    margin-top: 10px;
+  }
+  .nav-nav-bar .nav-align h1 {
+    font-size: 20px;
+  }
+  .myprofile {
+    display: none;
+  }
   body {
     background-color: lightgreen;
   }
@@ -161,21 +173,28 @@
   }
   .layout .box {
     margin-left: 0px;
+    margin-bottom: 20px;
   }
 }
 
 @media screen and (min-width: 480px) {
-  .myprofile {
-    display: none;
+  .nav-nav-bar .nav-align {
+    margin-top: 50px;
   }
 }
 
 @media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 30px;
+  }
   body {
     background-color: white;
   }
   .layout {
     margin-left: 90px;
+  }
+  .layout .box {
+    margin-bottom: 0px;
   }
   .myprofile {
     display: inline-block;
