@@ -62,10 +62,6 @@
   padding-right: 30px;
 }
 
-.nopadding {
-  padding: 0px !important;
-}
-
 #myCarousel {
   margin-top: 0px;
   display: block;
@@ -152,7 +148,22 @@
   /* For browsers that do not support gradients */
 }
 
+/*Variable class name*/
+.nopadding {
+  padding: 0px !important;
+}
+
+.spcolor {
+  color: #ed2541;
+}
+
 @media screen and (min-width: 320px) {
+  .text {
+    margin-left: 0px;
+  }
+  .text p {
+    text-align: justify;
+  }
   .no-padding {
     padding: 0px;
   }
@@ -188,8 +199,8 @@
 
 @media screen and (min-width: 1000px) {
   .text {
-    padding-left: 50px;
-    margin-left: 150px;
+    padding-left: 0px;
+    margin-left: 20px;
   }
   .text h3 {
     margin-bottom: 30px;
@@ -211,10 +222,13 @@
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1200px) {
   .text {
-    margin-left: 80px;
+    margin-left: 120px;
   }
+}
+
+@media screen and (min-width: 1300px) {
   .layout {
     margin-left: 150px;
   }
