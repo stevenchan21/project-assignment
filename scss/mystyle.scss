@@ -150,6 +150,9 @@ $sp-red: #ed2541;
     }
     h3 {
         color: black;
+        font-size: 24px;
+        font-weight: bold;
+        font-family: "Times New Roman", Times, serif;
     }
     img {
         width: 100%;
@@ -170,6 +173,7 @@ $sp-red: #ed2541;
 .nav-tabs {
     a {
         color: $sp-red;
+        font-size: 20px;
     }
 }
 .tab-pane {
