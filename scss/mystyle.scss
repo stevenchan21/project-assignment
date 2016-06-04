@@ -134,6 +134,32 @@ $sp-red: #ed2541;
     // background: -moz-linear-gradient($sp-red, #A73333); /* For Firefox 3.6 to 15 */
     // background: linear-gradient(lightgrey, black 90%); /* Standard syntax */
 }
+.box-2 {
+    margin-top: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white 40%, $sp-red); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white 40%, $sp-red); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white 40%, $sp-red); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white 40%, #B40A0A); /* Standard syntax */
+    a:link {
+        color: black;
+    }
+    h3 {
+        color: black;
+    }
+    img {
+        width: 100%;
+        text-align: center;
+    }
+    p {
+        color: white;
+        font-size: 16px;
+    }
+}
 
 
 /*Variable class name*/
@@ -143,9 +169,37 @@ $sp-red: #ed2541;
 .spcolor {
     color: $sp-red;
 }
+.textalign {
+    text-align: center;
+}
+.textjustify {
+    text-align: justify;
+}
 
 
 @media screen and (min-width: 320px) {
+    .content {
+        p {
+            font-size: 18px;
+            font-family:"Times New Roman", Times, serif;
+        }
+    }
+    .box-2 {
+        margin-left: 0px;
+    }
+    .subtitle {
+        h2 {
+            font-size: 25px;
+        }
+        h3 {
+            font-size: 16px;
+        }
+    }
+    .layout {
+        .logo {
+            margin-bottom: 20px;
+        }
+    }
     .text {
         margin-left: 0px;
         p {
@@ -192,7 +246,39 @@ $sp-red: #ed2541;
     }
 }
 
+@media screen and (min-width: 768px) {
+    .subtitle {
+        h2 {
+            font-size: 30px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+    }
+    .layout {
+        .logo {
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 0px;
+            img{
+                width: 200px;
+                height: auto;
+            }
+        }
+    }
+
+}
 @media screen and (min-width: 1000px) {
+    .box-2 {
+        margin-left: 310px;
+    }
+    .header-container {
+        h1 {
+            font-size: 20px;
+            padding-bottom: 10px;
+            padding-top: 5px;
+        }
+    }
     .text {
         padding-left: 0px;
         margin-left: 20px;
@@ -207,16 +293,20 @@ $sp-red: #ed2541;
         background-color: white;
     }
     .layout {
-        margin-left: 90px;
+        margin-left: 100px;
         .box {
             margin-bottom: 0px;
         }
     }
     .myprofile{
         display: inline-block;
+        margin-left: 8%;
     }
 }
 @media screen and (min-width: 1200px) {
+    .myprofile{
+        margin-left: 11%;
+    }
     .text {
         margin-left: 120px;
     }
@@ -224,19 +314,29 @@ $sp-red: #ed2541;
 }
 
 @media screen and (min-width: 1300px) {
-    // .text {
-    //     margin-left: 120px;
-    // }
+    .box-2 {
+        margin-left: 30%;
+    }
     .layout {
         margin-left: 150px;
     }
 }
+
 @media screen and (min-width: 1920px) {
+    .header-container {
+        h1 {
+            font-size: 30px;
+        }
+    }
+    .box-2 {
+        margin-left: 550px;
+    }
     .text {
-        margin-left: 0px;
+        margin-left: 50px;
     }
     .myprofile {
-        margin-left: 5%;
+        margin-left: 15%;
+        margin-top: 25px;
     }
     .layout {
         margin-left: 200px;
