@@ -160,6 +160,21 @@ $sp-red: #ed2541;
         font-size: 16px;
     }
 }
+.progress-bar-navyblue {
+    background-color: navy blue;
+}
+
+.progress-bar-green {
+    background-color: #49A165;
+}
+.nav-tabs {
+    a {
+        color: $sp-red;
+    }
+}
+.tab-pane {
+    font-size: 18px;
+}
 
 
 /*Variable class name*/
@@ -174,6 +189,15 @@ $sp-red: #ed2541;
 }
 .textjustify {
     text-align: justify;
+}
+.padding-left {
+    padding-left: 180px;
+}
+.padding-right {
+    padding-right: 180px;
+}
+.margin-top {
+    margin-top: 50px;
 }
 
 
