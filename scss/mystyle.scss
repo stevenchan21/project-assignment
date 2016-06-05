@@ -206,6 +206,19 @@ $sp-red: #ed2541;
 
 
 @media screen and (min-width: 320px) {
+    // .layout {
+    //     .logo {
+    //         img {
+    //             margin-bottom: 20px;
+    //         }
+    //     }
+    // }
+    .padding-left {
+        padding-left: 30px;
+    }
+    .padding-right {
+        padding-right: 30px;
+    }
     .content {
         p {
             font-size: 18px;
@@ -249,7 +262,7 @@ $sp-red: #ed2541;
         display: none;
     }
     body {
-        background-color: lightgreen;
+        background-color: cyan;
     }
     .layout {
         margin-left: 0px;
@@ -296,7 +309,29 @@ $sp-red: #ed2541;
     }
 
 }
+@media screen and (min-width: 990px) {
+    .padding-left {
+        padding-left: 180px;
+    }
+    .padding-right {
+        padding-right: 180px;
+    }
+    .layout {
+        .logo {
+            margin-left: 100px;
+            margin-right: 20px;
+            margin-bottom: 0px;
+        }
+    }
+}
 @media screen and (min-width: 1000px) {
+    .layout {
+        .logo {
+            margin-left: 20px;
+            margin-right: 50px;
+            margin-bottom: 0px;
+        }
+    }
     .box-2 {
         margin-left: 310px;
     }
@@ -332,6 +367,13 @@ $sp-red: #ed2541;
     }
 }
 @media screen and (min-width: 1200px) {
+    .layout {
+        .logo {
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 0px;
+        }
+    }
     .myprofile{
         margin-left: 11%;
     }
