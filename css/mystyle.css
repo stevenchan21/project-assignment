@@ -282,10 +282,18 @@ table img {
   margin-top: 50px;
 }
 
+.border-top {
+  border-top: 3px dashed lightgrey;
+}
+
 @media screen and (min-width: 320px) {
   .chartspacing {
     padding-left: 20px;
     padding-right: 160px;
+  }
+  .chartspacing h4 {
+    text-align: justify;
+    color: #ed2541;
   }
   .chartspacing .chart1 {
     border: 1px solid lightgrey;
@@ -306,9 +314,9 @@ table img {
     margin-top: 60px;
   }
   .chartspacing .chart1 .figure3 {
-    height: 100px;
+    height: 246px;
     background-color: orange;
-    margin-top: 199px;
+    margin-top: 54px;
   }
   .chartspacing .chart1 .figure4 {
     height: 255px;
@@ -326,9 +334,9 @@ table img {
     margin-top: 195px;
   }
   .chartspacing .chart1 .figureVA3 {
-    height: 100px;
+    height: 180px;
     background-color: orange;
-    margin-top: 199px;
+    margin-top: 120px;
   }
   .chartspacing .chart1 .figureVA4 {
     height: 210px;
@@ -346,9 +354,9 @@ table img {
     margin-top: 105px;
   }
   .chartspacing .chart1 .figureLP3 {
-    height: 100px;
+    height: 210px;
     background-color: orange;
-    margin-top: 199px;
+    margin-top: 90px;
   }
   .chartspacing .chart1 .figureLP4 {
     height: 255px;
@@ -366,9 +374,9 @@ table img {
     margin-top: 90px;
   }
   .chartspacing .chart1 .figureR3 {
-    height: 100px;
+    height: 249px;
     background-color: orange;
-    margin-top: 199px;
+    margin-top: 51px;
   }
   .chartspacing .chart1 .figureR4 {
     height: 270px;
@@ -386,9 +394,9 @@ table img {
     margin-top: 60px;
   }
   .chartspacing .chart1 .figureLS3 {
-    height: 100px;
+    height: 240px;
     background-color: orange;
-    margin-top: 199px;
+    margin-top: 60px;
   }
   .chartspacing .chart1 .figureLS4 {
     height: 285px;
@@ -406,9 +414,9 @@ table img {
     margin-top: 90px;
   }
   .chartspacing .chart1 .figureC3 {
-    height: 100px;
+    height: 195px;
     background-color: orange;
-    margin-top: 199px;
+    margin-top: 105px;
   }
   .chartspacing .chart1 .figureC4 {
     height: 210px;

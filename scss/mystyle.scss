@@ -250,12 +250,19 @@ table {
 .margin-top {
     margin-top: 50px;
 }
+.border-top {
+    border-top: 3px dashed lightgrey;
+}
 
 
 @media screen and (min-width: 320px) {
     .chartspacing {
         padding-left: 20px;
         padding-right: 160px;
+        h4 {
+            text-align: justify;
+            color: $sp-red;
+        }
         .chart1 {
             border: 1px solid lightgrey;
             height: 300px;
@@ -274,9 +281,9 @@ table {
                 margin-top: 60px;
             }
             .figure3 {
-                height: 100px;
+                height: 246px;
                 background-color: orange;
-                margin-top: 199px;
+                margin-top: 54px;
             }
             .figure4 {
                 height: 255px;
@@ -294,9 +301,9 @@ table {
                 margin-top: 195px;
             }
             .figureVA3 {
-                height: 100px;
+                height: 180px;
                 background-color: orange;
-                margin-top: 199px;
+                margin-top: 120px;
             }
             .figureVA4 {
                 height: 210px;
@@ -314,9 +321,9 @@ table {
                 margin-top: 105px;
             }
             .figureLP3 {
-                height: 100px;
+                height: 210px;
                 background-color: orange;
-                margin-top: 199px;
+                margin-top: 90px;
             }
             .figureLP4 {
                 height: 255px;
@@ -334,9 +341,9 @@ table {
                 margin-top: 90px;
             }
             .figureR3 {
-                height: 100px;
+                height: 249px;
                 background-color: orange;
-                margin-top: 199px;
+                margin-top: 51px;
             }
             .figureR4 {
                 height: 270px;
@@ -354,9 +361,9 @@ table {
                 margin-top: 60px;
             }
             .figureLS3 {
-                height: 100px;
+                height: 240px;
                 background-color: orange;
-                margin-top: 199px;
+                margin-top: 60px;
             }
             .figureLS4 {
                 height: 285px;
@@ -374,9 +381,9 @@ table {
                 margin-top: 90px;
             }
             .figureC3 {
-                height: 100px;
+                height: 195px;
                 background-color: orange;
-                margin-top: 199px;
+                margin-top: 105px;
             }
             .figureC4 {
                 height: 210px;
